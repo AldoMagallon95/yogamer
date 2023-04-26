@@ -1,0 +1,45 @@
+.partner-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.partner-card{
+    background-color: #1c1c1cb7;
+    background-image: linear-gradient(315deg, #1c1c1cab 0%, #1e1e1e9c 74%);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 450px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.021);
+    color: #ffffff;
+    perspective: 1000px;
+    transition: transform 0.5s;
+}
+
+.risebit {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.kraken{
+  width: 100%;
+  padding-top: 5px;
+}  
+ 
+  
+  @media (max-width: 1014px) {
+    .partner-cards {
+      flex-direction: column;
+      align-items: center;
+      width: 85%;
+    }
+  
+    .partner-card {
+      width: 95%;
+      max-width: 350px;
+    }
+  }

@@ -1,0 +1,46 @@
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin-bottom: 2rem;
+  
+}
+
+.about-me-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.about-me-text {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.youtube-videos-container {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.youtube-videos-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.video-container {
+  margin-bottom: 20px;
+}

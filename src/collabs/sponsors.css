@@ -1,0 +1,58 @@
+.sponsor-cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;  
+}
+
+.sponsor-card{   
+display: flex;
+align-items: center;
+border-radius: 10px;
+overflow: hidden;
+padding: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.021);
+color: #ffffff;
+perspective: 1000px;
+transition: transform 0.5s;
+width: 60%;  
+margin-top:-5%;
+
+}
+
+
+.sponsor-images img {
+margin: 5px;
+max-width: 100%;
+height: auto;
+}
+
+.sponsor-1{
+  width: 50%;
+  margin-bottom: 5% !important;
+  
+}
+
+.sponsor-2{
+  width: 25%;
+}
+
+.sponsor-3{
+  width: 20%;
+  margin-bottom: 1% !important;
+}
+
+@media (max-width: 1014px) {
+.sponsor-cards {
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+.sponsor-card {
+  width: 95%;
+  max-width: 350px;
+}
+.sponsor-1 {
+  width: 95%;
+}
+}
